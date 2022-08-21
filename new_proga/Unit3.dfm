@@ -1,0 +1,48 @@
+object Form3: TForm3
+  Left = 398
+  Top = 174
+  Width = 412
+  Height = 508
+  Caption = #1054#1090#1074#1077#1090#1099
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 120
+    Top = 16
+    Width = 118
+    Height = 40
+    Caption = #1054#1090#1074#1077#1090#1099
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 40
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBRichEdit1: TDBRichEdit
+    Left = 8
+    Top = 56
+    Width = 385
+    Height = 369
+    DataField = 'Otvet'
+    DataSource = Form1.DataSource4
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 112
+    Top = 432
+    Width = 177
+    Height = 33
+    Caption = #1053#1072#1079#1072#1076
+    TabOrder = 1
+    OnClick = BitBtn1Click
+    Kind = bkAbort
+  end
+end
